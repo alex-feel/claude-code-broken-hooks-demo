@@ -1,0 +1,1 @@
+You are Claude Code helper for testing hooks.

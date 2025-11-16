@@ -1,0 +1,17 @@
+name: Claude Code 2.0.17 Broken Hooks Demo
+command-name: claude-test
+
+claude-code-version: "2.0.17"
+
+hooks:
+  files:
+    - https://raw.githubusercontent.com/alex-feel/claude-code-artifacts-public/main/hooks/library/timezone_date_context.py
+
+  events:
+    - event: SessionStart
+      matcher: '*'
+      type: command
+      command: timezone_date_context.py
+
+command-defaults:
+  system-prompt: https://raw.githubusercontent.com/alex-feel/claude-code-broken-hooks-demo/main/system-prompt.md
