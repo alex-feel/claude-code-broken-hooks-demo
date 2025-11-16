@@ -1,7 +1,7 @@
-name: Claude Code 2.0.14 Working Hooks Demo
+name: Claude Code 2.0.15 Working Hooks Demo
 command-name: claude-test
 
-claude-code-version: "2.0.14"
+claude-code-version: "2.0.15"
 
 hooks:
   files:
